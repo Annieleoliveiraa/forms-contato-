@@ -1,0 +1,173 @@
+html, body {
+   font-family: "Karla", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+
+   background-color:  hsl(148, 38%, 91%);
+}
+
+h2 {
+   color: hsl(180, 3%, 25%);
+
+   padding: 25px;
+   margin-bottom: -12px;
+}
+
+.container {
+   background-color:  hsl(0, 0%, 100%);
+
+   width: 700px;
+   height: 900px;
+
+   margin-right: auto;
+   margin-left: auto;
+
+   border-radius: 10px;
+}
+
+.container-inputs {
+   display: flex;
+   justify-content: center;
+   gap: 70px;
+   padding: 20px 20px;
+}
+
+.input-name {
+   width: 280px;
+   height: 40px;
+
+  border-radius: 8px;
+  border: 1px solid hsl(169, 82%, 27%);
+  border-style: double;
+
+  padding-left: 12px;
+
+  cursor: pointer;
+}
+
+.input-lastname {
+   width: 280px;
+   height: 40px;
+
+   border-radius: 8px;
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   padding-left: 12px;
+
+   cursor: pointer;
+}
+
+.input-email {
+   width: 630px;
+   height: 40px;
+
+   border-radius: 8px;
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   padding-left: 12px;
+
+   cursor: pointer;
+}
+
+.text-email {
+   margin-left: 5px;
+}
+
+.container-email {
+   display: flex;
+   justify-content: center;
+}
+
+.container-radios {
+   display: flex;
+   align-items: center;
+  
+   gap: 30px;
+   margin-left: 30px;
+}
+
+.input-text01 {
+   width: 260px;
+   height: 40px;
+
+   border-radius: 8px;
+
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   padding-left: 12px;
+
+   margin-top: 20px;
+}
+
+.input-text02 {
+   width: 280px;
+   height: 40px;
+
+   border-radius: 8px;
+
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   padding-left: 12px;
+
+   margin-top: 34px;
+}
+
+.input-message {
+   width: 620px;
+   height: 80px;
+
+   border-radius: 8px;
+   border: 1px solid hsl(169, 82%, 27%);
+   border-style: double;
+
+   padding-left: 12px;
+
+   margin-right: 20px;
+
+   cursor: pointer;
+}
+
+.container-message {
+   display: flex;
+   justify-content: center;
+}
+
+.checkbox-container {
+   display: flex;
+   align-items: center;
+   margin-left: 12px;
+}
+
+.checkbox-container input[type="checkbox"] {
+   margin-right: 15px;
+}
+
+.input-btn {
+   width: 620px;
+   height: 50px;
+
+   border: none;
+   border-radius: 8px;
+   background-color: hsl(169, 82%, 27%);
+   color: hsl(0, 0%, 100%);
+
+   font-size: 16px;
+   font-weight: 600;
+
+   cursor: pointer;
+   transition: all 0.8s ease-in;
+}
+
+.input-btn:hover {
+   background-color: hsl(170, 88%, 10%);
+}
+
+.container-button {
+   display: flex;
+   justify-content: center;
+}
