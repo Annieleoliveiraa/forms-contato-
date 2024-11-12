@@ -43,7 +43,6 @@ h2 {
 
   padding-left: 12px;
 
-  cursor: pointer;
 }
 
 .input-lastname {
@@ -56,7 +55,6 @@ h2 {
 
    padding-left: 12px;
 
-   cursor: pointer;
 }
 
 .input-email {
@@ -69,7 +67,6 @@ h2 {
 
    padding-left: 12px;
 
-   cursor: pointer;
 }
 
 .text-email {
@@ -129,7 +126,6 @@ h2 {
 
    margin-right: 20px;
 
-   cursor: pointer;
 }
 
 .container-message {
