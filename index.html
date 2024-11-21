@@ -41,19 +41,27 @@
       </div>
 
 
-      <div class="container-radios">
-        <label for="itext01">
-          <p> Query Type *</p>
-          <p>General Enquiry<input class="input-text01" type="text" name="" id="itext01"></p>
-          <p><input type="radio" name="" id="iradio01"></p>
-        </label>
 
-        <label for="itext02">
-          <p>Support Request<input class="input-text02" type="text" name="" id="itext02"></p>
-          <p><input type="radio" name="" id="iradio02"></p>
+      <div class="form-group">
+        <label class="form-label">Query Type <span class="required">*</span></label>
+         <div class="button-container">
+        <label class="radio-option">
+          <input type="radio" name="query-type" value="general" checked>
+           <div class="content">
+             <div class="circle"></div>
+             <span>general enquiry</span>
+           </div>
+        </label> 
+        <label class="radio-option">
+          <input type="radio" name="query-type" value="support">
+          <div class="content">
+            <div class="circle"></div>
+            <span>support request</span>
+          </div>
         </label>
+        </div>
       </div>
-
+      
 
       <div class="container-message">
         <label for="imessage">

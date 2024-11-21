@@ -78,40 +78,94 @@ h2 {
    justify-content: center;
 }
 
-.container-radios {
+.form-group {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.form-label {
+   font-size: 17px;
+   font-weight: 500;
+   color: #333;
+   padding-left: 28px;
+   margin: 10px 0 10px 0;
+}
+
+.required {
+   color: hsl(169, 82%, 27%);
+}
+
+.button-container {
+   display: flex;
+   gap: 10px;
+   padding-left: 28px;
+}
+
+.radio-option {
+ display: inline-flex;
+ align-items: center;
+ border: 1px solid #ccc;
+ border-radius: 8px;
+ padding: 10px 20px;
+ cursor: pointer;
+ background-color: white;
+ transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.radio-option:hover {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.radio-option input {
+  display: none;
+}
+
+.radio-option .content {
    display: flex;
    align-items: center;
-  
-   gap: 30px;
-   margin-left: 30px;
+   gap: 10px;
 }
 
-.input-text01 {
-   width: 260px;
-   height: 40px;
-
-   border-radius: 8px;
-
-   border: 1px solid hsl(169, 82%, 27%);
-   border-style: double;
-
-   padding-left: 12px;
-
-   margin-top: 20px;
+.circle {
+   width: 16px;
+   height: 16px;
+   border: 2px solid #ccc;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-.input-text02 {
-   width: 280px;
-   height: 40px;
+.circle::after {
+   content: '';
+   width: 8px;
+   height: 8px;
+   background-color: transparent;
+   border-radius: 50%;
+   transition: background-color 0.3s;
+}
 
-   border-radius: 8px;
+.radio-option span {
+   font-size: 18px;
+   color: #333;
+   text-transform: capitalize;
 
-   border: 1px solid hsl(169, 82%, 27%);
-   border-style: double;
 
-   padding-left: 12px;
+   width: 240px;
+}
 
-   margin-top: 34px;
+.radio-option input:checked + .content .circle {
+   border-color: hsl(169, 82%, 27%);
+}
+
+.radio-option input:checked + .content .circle::after {
+   background-color:  hsl(169, 82%, 27%);
+}
+
+.radio-option input:checked {
+   background-color: #e6f4ea;
+   border-color: hsl(169, 82%, 27%);
 }
 
 .input-message {
