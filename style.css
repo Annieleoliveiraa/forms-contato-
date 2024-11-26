@@ -29,7 +29,7 @@ h2 {
 .container-inputs {
    display: flex;
    justify-content: center;
-   gap: 70px;
+   gap: 60px;
    padding: 20px 20px;
 }
 
@@ -66,11 +66,12 @@ h2 {
    border-style: double;
 
    padding-left: 12px;
+   margin-left: -8px;
 
 }
 
 .text-email {
-   margin-left: 5px;
+   margin-left: -4px;
 }
 
 .container-email {
@@ -88,7 +89,7 @@ h2 {
    font-size: 17px;
    font-weight: 500;
    color: #333;
-   padding-left: 28px;
+   padding-left: 27px;
    margin: 10px 0 10px 0;
 }
 
@@ -111,6 +112,8 @@ h2 {
  cursor: pointer;
  background-color: white;
  transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+
+ margin-left: -3px;
 }
 
 .radio-option:hover {
@@ -181,9 +184,8 @@ h2 {
    margin-right: 20px;
 }
 
-.container-message {
-   display: flex;
-   justify-content: center;
+.container-message p {
+   margin-left: 28px;
 }
 
 .checkbox-container {
@@ -193,11 +195,12 @@ h2 {
 }
 
 .checkbox-container input[type="checkbox"] {
-   margin-right: 15px;
+   margin-left: 18px;
+   margin-right: 10px;
 }
 
 .input-btn {
-   width: 620px;
+   width: 645px;
    height: 50px;
 
    border: none;
