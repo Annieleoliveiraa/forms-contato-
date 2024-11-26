@@ -29,7 +29,7 @@ h2 {
 .container-inputs {
    display: flex;
    justify-content: center;
-   gap: 60px;
+   gap: 48px;
    padding: 20px 20px;
 }
 
@@ -41,8 +41,7 @@ h2 {
   border: 1px solid hsl(169, 82%, 27%);
   border-style: double;
 
-  padding-left: 12px;
-
+  padding-left: 30px;
 }
 
 .input-lastname {
@@ -52,26 +51,19 @@ h2 {
    border-radius: 8px;
    border: 1px solid hsl(169, 82%, 27%);
    border-style: double;
-
-   padding-left: 12px;
-
 }
 
 .input-email {
-   width: 630px;
+   width: 645px;
    height: 40px;
 
    border-radius: 8px;
    border: 1px solid hsl(169, 82%, 27%);
    border-style: double;
-
-   padding-left: 12px;
-   margin-left: -8px;
-
 }
 
 .text-email {
-   margin-left: -4px;
+   margin-left: 4px;
 }
 
 .container-email {
@@ -99,8 +91,8 @@ h2 {
 
 .button-container {
    display: flex;
-   gap: 10px;
-   padding-left: 28px;
+   gap: 26px;
+   padding-left: 30px;
 }
 
 .radio-option {
@@ -172,16 +164,15 @@ h2 {
 }
 
 .input-message {
-   width: 620px;
+   width: 640px;
    height: 80px;
 
    border-radius: 8px;
    border: 1px solid hsl(169, 82%, 27%);
    border-style: double;
 
-   padding-left: 12px;
-
-   margin-right: 20px;
+   margin-left: -4px;
+   padding-left: 10px;
 }
 
 .container-message p {
@@ -200,7 +191,7 @@ h2 {
 }
 
 .input-btn {
-   width: 645px;
+   width: 650px;
    height: 50px;
 
    border: none;
