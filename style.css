@@ -33,6 +33,14 @@ h2 {
    padding: 20px 20px;
 }
 
+.text-first {
+   margin-left: 4px;
+}
+
+.text-last {
+   margin-left: 8px;
+}
+
 .input-name {
    width: 280px;
    height: 40px;
@@ -41,7 +49,7 @@ h2 {
   border: 1px solid hsl(169, 82%, 27%);
   border-style: double;
 
-  padding-left: 30px;
+  padding-left: 15px;
 }
 
 .input-lastname {
@@ -51,6 +59,13 @@ h2 {
    border-radius: 8px;
    border: 1px solid hsl(169, 82%, 27%);
    border-style: double;
+
+   padding-left: 15px;
+}
+
+
+.text-email {
+   margin-left: 24px;
 }
 
 .input-email {
@@ -60,11 +75,11 @@ h2 {
    border-radius: 8px;
    border: 1px solid hsl(169, 82%, 27%);
    border-style: double;
+
+   padding-left: 15px;
+   margin-left: 20px;
 }
 
-.text-email {
-   margin-left: 4px;
-}
 
 .container-email {
    display: flex;
