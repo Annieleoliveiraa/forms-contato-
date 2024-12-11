@@ -1,4 +1,0 @@
-
-function clicar() {
-   let valorUsuario = 
-}
